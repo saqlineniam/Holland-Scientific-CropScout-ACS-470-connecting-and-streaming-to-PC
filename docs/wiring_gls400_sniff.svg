@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="330" viewBox="0 0 960 330" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="960" height="330" rx="12" fill="#ffffff"/>
+  <text x="24" y="38" font-size="20" font-weight="700" fill="#1a1a1a">Optional: listening in on a GeoSCOUT GLS-400 (how the protocol was found)</text>
+  <text x="24" y="60" font-size="13" fill="#555">RS-485 is a shared bus, so the PC can listen in parallel. The GLS-400 powers the sensor — do NOT also connect an external 12 V supply.</text>
+
+  <!-- GLS -->
+  <rect x="24" y="110" width="170" height="120" rx="10" fill="#fff6e8" stroke="#a86b00" stroke-width="2"/>
+  <text x="109" y="160" font-size="16" font-weight="700" fill="#1a1a1a" text-anchor="middle">GeoSCOUT</text>
+  <text x="109" y="181" font-size="16" font-weight="700" fill="#1a1a1a" text-anchor="middle">GLS-400</text>
+  <text x="109" y="205" font-size="12" fill="#555" text-anchor="middle">logger (bus master)</text>
+
+  <!-- Sensor -->
+  <rect x="766" y="110" width="170" height="120" rx="10" fill="#eef3f8" stroke="#3b5b7a" stroke-width="2"/>
+  <text x="851" y="160" font-size="16" font-weight="700" fill="#1a1a1a" text-anchor="middle">ACS-470</text>
+  <text x="851" y="183" font-size="12" fill="#555" text-anchor="middle">sensor</text>
+
+  <!-- bus: power + data between GLS and sensor -->
+  <path d="M194,135 H766" fill="none" stroke="#666" stroke-width="7"/>
+  <path d="M194,135 H766" fill="none" stroke="#f4f4f4" stroke-width="4"/>
+  <path d="M194,160 H766" fill="none" stroke="#1f5fbf" stroke-width="5"/>
+  <path d="M194,185 H766" fill="none" stroke="#8b4513" stroke-width="5"/>
+  <path d="M194,210 H766" fill="none" stroke="#111" stroke-width="5"/>
+  <text x="480" y="128" font-size="12" fill="#555" text-anchor="middle" font-weight="600">white +12 V (from GLS-400)</text>
+
+  <!-- taps -->
+  <circle cx="420" cy="160" r="6" fill="#1f5fbf"/>
+  <circle cx="450" cy="185" r="6" fill="#8b4513"/>
+  <circle cx="480" cy="210" r="6" fill="#111"/>
+  <path d="M420,160 V265" fill="none" stroke="#1f5fbf" stroke-width="4"/>
+  <path d="M450,185 V265" fill="none" stroke="#8b4513" stroke-width="4"/>
+  <path d="M480,210 V265" fill="none" stroke="#111" stroke-width="4"/>
+
+  <!-- adapter -->
+  <rect x="380" y="265" width="140" height="50" rx="8" fill="#eef7ee" stroke="#2e7d32" stroke-width="2"/>
+  <text x="450" y="287" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle">adapter: TX · RX · GND</text>
+  <text x="450" y="305" font-size="11" fill="#555" text-anchor="middle">RS485, listen only</text>
+
+  <text x="560" y="275" font-size="12" fill="#333">Tap with an M12 Y-splitter wired 1:1 (parallel),</text>
+  <text x="560" y="293" font-size="12" fill="#333">or wires pushed into the cable socket.</text>
+  <text x="560" y="311" font-size="12" fill="#333">Then run: python acs470_sniff.py</text>
+</svg>

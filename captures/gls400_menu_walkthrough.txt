@@ -1,0 +1,46 @@
+Listening on COM10 @ 76800 (listen only) -> captures\sniff_20261016_120732.txt
+Change ONE GLS-400 setting at a time. Ctrl+C to stop.
+
+12:07:33.096  (sensor running ~20.6 Hz, e.g. -0.044,-0.053, 2.0212, 1.8514, 2.0566)
+12:07:43.097  (sensor running ~24.7 Hz, e.g. -0.050,-0.052, 2.0299, 1.8356, 2.0374)
+12:07:53.099  (sensor running ~24.7 Hz, e.g. -0.053,-0.057, 2.0289, 1.8235, 2.0424)
+12:08:03.100  (sensor running ~24.7 Hz, e.g. -0.040,-0.046, 2.0300, 1.8737, 2.0527)
+12:08:13.104  (sensor running ~24.7 Hz, e.g. -0.045,-0.044, 2.0329, 1.8590, 2.0319)
+12:08:23.152  (sensor running ~24.7 Hz, e.g. -0.057,-0.057, 2.0304, 1.8118, 2.0298)
+12:08:33.155  (sensor running ~24.7 Hz, e.g. -0.052,-0.055, 2.0294, 1.8300, 2.0434)
+12:08:43.156  (sensor running ~24.7 Hz, e.g. -0.040,-0.051, 2.0237, 1.8693, 2.0717)
+12:08:53.158  (sensor running ~24.7 Hz, e.g. -0.047,-0.047, 2.0366, 1.8520, 2.0365)
+           (sensor: 76 data lines, ~24.6 Hz, e.g. -0.039,-0.040, 2.0237, 1.8719, 2.0281)
+12:08:56.223  $AUTOOFF,99*4D                           [checksum ok]
+           (sensor: 14 data lines, ~24.1 Hz, e.g. 0.568,-0.259,1747119.0000,6345309.0000,10772720.0000)
+12:08:56.906  $NEWCFG,99,ON,HI,S2,AUTO*0B              [checksum ok]
+12:08:57.017  $OK,00*                                  [checksum -]
+12:08:57.129  $NEWCFG,99,ON,HI,S2,AUTO*0B              [checksum ok]
+12:08:57.241  $OK,00*                                  [checksum -]
+12:09:03.313  (sensor running ~2.0 Hz, e.g. -0.043,-0.048, 2.0270, 1.8586, 2.0453)
+12:09:13.443  (sensor running ~2.0 Hz, e.g. -0.043,-0.049, 2.0288, 1.8604, 2.0506)
+12:09:23.572  (sensor running ~2.0 Hz, e.g. -0.042,-0.048, 2.0299, 1.8671, 2.0573)
+           (sensor: 13 data lines, ~2.0 Hz, e.g. -0.044,-0.050, 2.0291, 1.8587, 2.0557)
+12:09:30.027  $AUTOOFF,99*4D                           [checksum ok]
+12:09:30.250  $AUTOOFF,99*4D                           [checksum ok]
+12:09:30.474  $AUTOOFF,99*4D                           [checksum ok]
+12:09:30.699  $NEWCFG,99,ON,HI,2,M1,AUTO*              [checksum -]   CHANGED field 4: S2 -> 2; field 5: AUTO -> M1; field count 6 -> 7
+12:09:30.809  $OK,00*                                  [checksum -]
+12:09:30.938  $NEWCFG,99,ON,HI,2,M1,AUTO*              [checksum -]
+12:09:31.033  $OK,00*                                  [checksum -]
+12:09:31.161  $NEWCFG,99,ON,HI,2,M1,AUTO*              [checksum -]
+12:09:31.273  $OK,00*                                  [checksum -]
+12:09:33.791  (sensor running ~2.0 Hz, e.g. -0.045,-0.051, 2.0285, 1.8540, 2.0534)
+12:09:43.921  (sensor running ~2.0 Hz, e.g. -0.044,-0.048, 2.0284, 1.8586, 2.0481)
+12:09:54.051  (sensor running ~2.0 Hz, e.g. -0.044,-0.049, 2.0291, 1.8569, 2.0471)
+12:10:04.180  (sensor running ~2.0 Hz, e.g. -0.044,-0.047, 2.0309, 1.8598, 2.0436)
+12:10:14.309  (sensor running ~2.0 Hz, e.g. -0.044,-0.048, 2.0307, 1.8610, 2.0498)
+12:10:24.426  (sensor running ~2.1 Hz, e.g. -0.044,-0.049, 2.0315, 1.8603, 2.0506)
+           (sensor: 16 data lines, ~2.0 Hz, e.g. -0.044,-0.049, 2.0297, 1.8580, 2.0510)
+12:10:32.525  $AUTOOFF,99*4D                           [checksum ok]
+           (sensor: 1 data lines, ~0.0 Hz, e.g. -0.042,-0.048, 2.0280, 1.8628, 2.0524)
+12:10:32.749  $AUTOOFF,99*4D                           [checksum ok]
+12:10:32.973  $AUTOOFF,99*4D                           [checksum ok]
+12:10:33.213  $NEWCFG,99,ON,HI,S25,AUTO*D6             [checksum ok]   CHANGED field 4: 2 -> S25; field 5: M1 -> AUTO; field count 7 -> 6
+12:10:33.325  $OK,00*                                  [checksum -]
+           (sensor: 2 data lines, ~71.5 Hz, e.g. 0.568,-0.208,1257.0250,4560.1520,6953.5800)

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# your recordings (examples/ holds a small sample)
+data/
+
+# ad-hoc sniff runs; curated captures are committed under their own names
+captures/sniff_*.txt
